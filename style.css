@@ -1,4 +1,20 @@
 .paragraph {
     text-align: center;
     font-family: calibri;
+    width: 50%;
+    font-size: large;
+}
+.stocks{
+    width: 20%;
+    padding: 1%;
+}
+ul{
+    width: 50%;
+    text-align: left;
+}
+.title {
+    width: 40%;
+}
+.image{
+    width: 25%;
 }

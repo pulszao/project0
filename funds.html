@@ -7,21 +7,23 @@
         <title>My Webpage</title>
     </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
-    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="stocks.html">Stocks</a>
-        <a class="nav-item nav-link" href="reits.html">REITS</a>
-        <a class="nav-item nav-link" href="funds.html">Mutual Funds</a>
-    </div>
-  </div>
-</nav>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="stocks.html">Stocks</a>
+              <a class="nav-item nav-link" href="reits.html">REITS</a>
+              <a class="nav-item nav-link" href="funds.html">Mutual Funds</a>
+          </div>
+      </div>
+      </nav>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <body>
         <center>
         <div>
@@ -37,11 +39,11 @@
             <img src="https://www.infomoney.com.br/wp-content/uploads/2019/11/shutterstock_1190706364.jpg?
             fit=1024%2C682&quality=75&strip=all" class="image">
             <br><h1 class="title">Brazil's Mutual Funds</h1>
-            <p>
+            <p class="paragraph">
                 In Brazil, there are a lot of Mutual Funds.
                 Here is some of them:
             </p>
-            <table class="table table-striped" style="width: 50%;">
+            <table class="table table-striped" id="table">
                 <thead>
                   <tr>
                     <th scope="col">Mutual Fund</th>

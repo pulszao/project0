@@ -1,20 +1,35 @@
+ol > li {
+  color: blue;
+  font-weight: bold;
+}
+
 .paragraph {
-    text-align: center;
-    font-family: calibri;
-    width: 50%;
-    font-size: large;
+  text-align: center;
+  font-family: calibri;
+  width: 50%;
+  font-size: large;
 }
-.stocks{
-    width: 20%;
-    padding: 1%;
+
+.stocks {
+  width: 20%;
+  padding: 1%;
 }
-ul{
-    width: 60%;
-    text-align: left;
+
+ul {
+  width: 60%;
+  text-align: left;
 }
+
 .title {
-    width: 40%;
+  width: 40%;
 }
-.image{
-    width: 25%;
+
+.image {
+  width: 25%;
 }
+
+#list {
+  width: 25%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -9,12 +9,14 @@ $color: rgb(23, 64, 110);
     width: 20%;
     padding: 1%;
 }
-ul{
+div{
+    ul{
     width: 60%;
     text-align: left;
-}
-ul > li{
+    }
+    ul > li{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    }       
 }
 .title {
     width: 40%;
@@ -28,6 +30,11 @@ ul > li{
 }
 #table{
     width: 50%;
+}
+a:hover{
+    color: red;
+    font-weight: bold;
+    background-color: seagreen;
 }
 @media(max-width: 1000px){
     #list{

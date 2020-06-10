@@ -10,12 +10,11 @@
   padding: 1%;
 }
 
-ul {
+div ul {
   width: 60%;
   text-align: left;
 }
-
-ul > li {
+div ul > li {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -34,6 +33,12 @@ ul > li {
 
 #table {
   width: 50%;
+}
+
+a:hover {
+  color: red;
+  font-weight: bold;
+  background-color: seagreen;
 }
 
 @media (max-width: 1000px) {

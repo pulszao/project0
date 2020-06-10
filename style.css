@@ -1,8 +1,3 @@
-ol > li {
-  color: blue;
-  font-weight: bold;
-}
-
 .paragraph {
   text-align: center;
   font-family: calibri;
@@ -20,16 +15,46 @@ ul {
   text-align: left;
 }
 
+ul > li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .title {
   width: 40%;
+  color: #17406e;
 }
 
 .image {
-  width: 25%;
+  width: 400px;
 }
 
 #list {
-  width: 25%;
+  width: 30%;
+}
+
+#table {
+  width: 50%;
+}
+
+@media (max-width: 1000px) {
+  #list {
+    width: 70%;
+  }
+
+  #table {
+    width: 80%;
+  }
+
+  .title {
+    width: 80%;
+  }
+
+  .paragraph {
+    text-align: center;
+    font-family: calibri;
+    width: 70%;
+    font-size: large;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
